@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Calculadora de Conta</h1>
+    <div class="conteiner">
+        <form id="form-clientes">
+            <h1>Adicionar Cliente</h1>
+            <label for="cliente">Nome: </label>
+            <input type="text" name="cliente" id="icliente">
+            <input type="checkbox" name="taxa" id="itaxa"> <label for="taxa" id="taxa">Irá pagar a taxa?</label>
+            <button type="submit">Adicionar</button>
+        </form>
+        <form id="form-produtos">
+            <h1>Adicionar produto</h1>
+            <label for="produto">Produto: </label>
+            <input type="text" name="produto" id="iproduto">
+            <label for="preco">Preço: </label>
+            <input type="number" name="preco" id="ipreco" step="0.01">
+            <button type="submit">Adicionar</button>
+        </form>
+        <form id="form-consumidos">
+            <h1>Produtos consumidos</h1>
+            <div id="clientes-selecao"></div>
+            <label for="consumido">Produtos: </label>
+            <select name="consumido" id="iconsumido"></select>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div class="calculadora">
+            <h1>Calcular divisão</h1>
+            <button id="calcular">Dividir conta</button>
+        </div>
+        <div class="conta">
+            <h1>Clientes:</h1>
+            <div id="clientes"></div>
+            <h1>Produtos:</h1>
+            <div id="produtos"></div>
+            <h1>Conta:</h1>
+            <div id="resultados"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

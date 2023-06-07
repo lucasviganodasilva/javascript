@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+#titulo {
+    color: red;
+    font-size: 34px;
+}
+
+form {
+    border: 2px solid black;
+    margin: 6px;
+    border-radius: 10px;
+    height: 140px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+label {
+    padding-right: 6px;
+    margin-left: 10px;
+}
+
+#itaxa {
+    margin-left: 20px;
+}
+
+#taxa{
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+input{
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+button {
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 4px 6px;
+    background-color: rgba(7, 4, 204, 0.274);
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.calculadora{
+    border: 2px solid black;
+    margin: 6px;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.conta {
+    border: 2px solid black;
+    margin: 4px;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+}
+
+.conta > h1{
+    margin: 8px;
+}
+
+#clientes, #produtos, #resultados{
+    font-size: 20px;
+}
+
+select {
+    width: 160px;
+    height: 24px;
+}
+
+#clientes-selecao {
+    margin-bottom: 8px;
+}
+
+#clientes-selecao input[type="checkbox"] {
+    margin-right: 20px;
+}
